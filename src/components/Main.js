@@ -15,9 +15,9 @@ const Main = () => {
       <div className="impact">
         <h1 className="im-title">Our Impact</h1>
         <p>
-          In Sub Saharan Africa where half the population is 19 or younger, the
-          potential for impact of our youth-based mental healthcare model is
-          immense
+          In Sub Saharan Africa where half the population is{" "}
+          <span id="spanit">19 or younger</span>, the potential for impact of
+          our youth-based mental healthcare model is immense
         </p>
       </div>
       <div className="visual-items">

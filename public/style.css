@@ -36,7 +36,7 @@ header {
   text-decoration: none;
   color: black;
   padding: 10px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   /* transition: all 0.6s; */
 }
 .nav-link a:first-of-type {
@@ -50,6 +50,8 @@ header {
 .nav-link .donate {
   color: #ffffff;
   background-color: #1e73be;
+  padding-right: 14;
+  padding-left: 14;
 }
 .nav-link .donate:hover,
 .nav-link .donate:focus {
@@ -61,10 +63,7 @@ header {
 }
 
 .content {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
-    ),
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
     url("images/homepage.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -87,6 +86,7 @@ header {
 }
 .menu a {
   color: #ffffff;
+  text-decoration: none;
   background-color: #1e73be;
   position: absolute;
   top: 60%;
@@ -108,11 +108,15 @@ header {
   transition: ease 0.2s;
 }
 
+#spanit {
+  color: #1e73be;
+  font-weight: bolder;
+}
 .impact {
   text-align: center;
   width: 70%;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 .impact .im-title {
   font-size: 32px;
@@ -235,7 +239,7 @@ header {
 
 .gallery-section img {
   height: auto;
-  width: 315px;
+  width: 313px;
 }
 .art-1 {
   grid-column: 1/2;
@@ -300,4 +304,70 @@ header {
   .navbar {
     display: none;
   }
+}
+
+.footer-main {
+  background: #0f0f0f;
+}
+.footer-main .container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.footer-item h2 {
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.footer-item ul,
+.footer-item p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #b6b6b3;
+}
+.footer-item ul {
+  list-style: none;
+}
+.footer-item ul a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b6b6b3;
+}
+.container > * {
+  flex: 0 0 25%;
+  padding: 5px;
+}
+
+.footer-logo img {
+  height: auto;
+  width: 200px;
+  margin: 5px;
+}
+.bye {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+hr {
+  background-color: blue;
+  margin: 20px;
+}
+.bye a {
+  font-size: 14px;
+  line-height: 21px;
+  color: #b6b6b3;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.bye a :focus,
+.bye a:hover {
+  text-decoration: underline;
+}
+
+.footer-item {
+  /* margin-left: 20px;
+  margin-right: 20px; */
 }
