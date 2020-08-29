@@ -7,13 +7,13 @@ const SideBar = () => {
         <i className="fa fa-facebook-square" aria-hidden="true"></i>
       </a>
       <a href="#t">
-        <i className="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
       </a>
       <a href="#t">
-        <i className="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>{" "}
       </a>
       <a href="#t">
-        <i className="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
       </a>
     </div>
   );

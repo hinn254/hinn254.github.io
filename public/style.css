@@ -221,14 +221,16 @@ header {
   position: fixed;
   top: 20%;
   left: 96%;
+  /* height: 30vh; */
 }
 .try a {
   /* height: 20px; */
-  padding: 25px;
+  padding: 17px;
+  margin-bottom: 2px;
   color: white;
 }
 .try a:hover {
-  border-bottom: 2px solid green;
+  border-bottom: 3px solid #fff;
 }
 
 .gallery-section {
@@ -243,6 +245,30 @@ header {
 }
 .art-1 {
   grid-column: 1/2;
+}
+.fixed {
+  display: grid;
+}
+
+.fixed figure,
+.fixed p {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.fixed p {
+  background: gray;
+  opacity: 0.1;
+}
+
+.fixed p:hover,
+.fixed p:focus {
+  background: gray;
+  opacity: 1;
+}
+.doit {
+  display: flex;
+  align-items: flex-end;
 }
 
 .art-2 {
@@ -303,6 +329,10 @@ header {
 @media screen and (max-width: 700px) {
   .navbar {
     display: none;
+  }
+  #root {
+    display: block;
+    overflow: hidden;
   }
 }
 

@@ -77,8 +77,8 @@ const Main = () => {
         </div>
       </div>
       <div className="gallery-section">
-        <div className="art-1">
-          <figure>
+        <div className="art-1 fixed">
+          <figure className="doit">
             <img src="images/IMG_2911.jpg" alt="" />
           </figure>
           <p>
@@ -86,8 +86,8 @@ const Main = () => {
             depression.
           </p>
         </div>
-        <div className="art-2">
-          <figure>
+        <div className="art-2 fixed">
+          <figure className="doit">
             <img src="images/MG_0254.jpg" alt="" />
           </figure>
           <p>
@@ -95,8 +95,8 @@ const Main = () => {
             Gazzette
           </p>
         </div>
-        <div className="art-3">
-          <figure>
+        <div className="art-3 fixed">
+          <figure className="doit">
             <img src="images/IMG_2911.jpg" alt="" />
           </figure>
           <p>
@@ -104,36 +104,10 @@ const Main = () => {
             depression.
           </p>
         </div>
-        <div className="art-4">
-          <figure>
+        <div className="art-4 fixed">
+          <figure className="doit">
             <img src="images/MG_0254.jpg" alt="" />
           </figure>
-          <p>
-            Our founder Tom Osborn, and Shamiri Institute, featured on Harvard
-            Gazzette
-          </p>
-        </div>
-      </div>
-      <div className="gallery-wordings">
-        <div className="art-t1">
-          <p>
-            Single-session digital-version of Project Thrive! reduces
-            depression.
-          </p>
-        </div>
-        <div className="art-t2">
-          <p>
-            Our founder Tom Osborn, and Shamiri Institute, featured on Harvard
-            Gazzette
-          </p>
-        </div>
-        <div className="art-t3">
-          <p>
-            Single-session digital-version of Project Thrive! reduces
-            depression.
-          </p>
-        </div>
-        <div className="art-t4">
           <p>
             Our founder Tom Osborn, and Shamiri Institute, featured on Harvard
             Gazzette
